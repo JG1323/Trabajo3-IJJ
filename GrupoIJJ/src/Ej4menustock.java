@@ -252,11 +252,11 @@ public class Ej4menustock {
     private static void agregarProductoAdmin() {
     	String nombre = JOptionPane.showInputDialog(null, "Ingrese el nombre del nuevo producto:");
         if (nombre == null) {
-            return; // Cancelar la operación si se cierra la ventana
+            return; 
         }
         String cantidadStr = JOptionPane.showInputDialog(null, "Ingrese la cantidad del nuevo producto:");
         if (cantidadStr == null) {
-            return; // Cancelar la operación si se cierra la ventana
+            return; 
         }
         int cantidad;
         try {
@@ -267,7 +267,7 @@ public class Ej4menustock {
         }
         String precioStr = JOptionPane.showInputDialog(null, "Ingrese el precio del nuevo producto:");
         if (precioStr == null) {
-            return; // Cancelar la operación si se cierra la ventana
+            return; 
         }
         double precio;
         try {
